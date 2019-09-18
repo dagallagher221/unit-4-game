@@ -70,14 +70,3 @@ $(document).on("click", ".crystal", function () {
 
 })
 
-//Pseudocode
-
-//A game with 4 crystals and a random total score
-//total score will be between 19-120
-//Every crystal needs to have a random number assigned to it (1-12)
-
-//A new random number should be generated every single time user wins or loses
-
-//When clicking any crystal, it should add with the previous result until it hits/passes the total score
-//If it is not equal, the game resets, and we increment the loss counter
-//if it is equal, increment the win counter
